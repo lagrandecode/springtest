@@ -17,7 +17,8 @@ public class StudentService {
     private final StudentRepository studentRepository;
 
     public List<Student> getAllStudents() {
-        return studentRepository.findAll();
+        return 
+        studentRepository.findAll();
     }
 
     public Student getStudentById(Long id) {
@@ -52,6 +53,3 @@ public class StudentService {
         return studentRepository.saveAll(students);
     }
 } 
-
-
-//services conmnection
